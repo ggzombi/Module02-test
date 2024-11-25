@@ -1,0 +1,141 @@
+.client
+    margin-top: 48px
+    &-text
+        display: inline-block
+        font-size: 24px
+        font-weight: 300
+        line-height: 28px
+        padding-right: 5px
+        text-align: center
+        margin-bottom: 32px
+    &-card
+        transition: all 0.2s ease-in
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: #fff
+        box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2)
+        margin-bottom: 32px
+        border-radius: 10px
+        &__img
+            margin-top: 40px
+        &__title
+            font-size: 20px
+            line-height: 30px
+            letter-spacing: 0.05em
+            text-align: left
+            margin: 47px 40px 13px 30px
+            color: rgba(31, 63, 104, 1)
+        &__subtitle
+            font-size: 16px
+            line-height: 26px
+            letter-spacing: 0.05em
+            text-align: left
+            color: rgba(31, 63, 104, 1)
+            margin: 0px 40px 21px 30px
+            opacity: 60%
+        &__link
+            font-size: 14px
+            line-height: 30px
+            letter-spacing: 0.05em
+            text-align: left
+            margin-left: 30px
+            margin-bottom: 21px
+            margin-right: 224px
+            margin-top: 0px
+            color: rgba(90, 152, 208, 1)
+            text-decoration: none
+    &-card:hover 
+        transform: scale(0.97)
+        box-shadow: 0 8px 30px rgba(9, 149, 241, 0.2)
+    &-card:last-child
+        margin-bottom: 64px
+@media (min-width: 768px)
+    .client
+        &-cards
+            display: flex
+            justify-content: center
+            align-items: center
+        &-card
+            max-width: 334px
+            &__link
+                font-size: 14px
+                line-height: 30px
+                letter-spacing: 0.05em
+                text-align: left
+                margin-left: 28px
+                margin-bottom: 26px
+                margin-right: 215px
+                margin-top: 0px
+                color: rgba(90, 152, 208, 1)
+                text-decoration: none
+        &-card:last-child
+            margin-bottom: 128px
+        &-text
+            +lig
+            font-size: 36px
+            line-height: 46px
+            letter-spacing: 0.05em
+            text-align: center
+            margin: 64px 32px
+@media (min-width: 1366px)
+    .client
+        &-text
+            +lig
+            display: flex
+            font-size: 36px
+            line-height: 46px
+            letter-spacing: 0.05em
+            text-align: center
+            margin-top: 46px
+            margin-bottom: 66px
+            color: rgba(0, 0, 0, 1)
+        &-cards
+            flex-direction: row
+            justify-content: space-between
+            align-items: center
+            margin: 0px
+        &-card
+            margin-top: 0px
+            margin-bottom: 34px
+            margin-right: 38px
+            max-width: 430px
+            align-items: start
+            &__title
+                +reg
+                font-size: 20px
+                line-height: 30px
+                letter-spacing: 0.05em
+                text-align: left
+                color: rgba(31, 63, 104, 1)
+                max-width: 300px
+            &__subtitle
+                font-size: 16px
+                line-height: 26px
+                letter-spacing: 0.05em
+                text-align: left
+                color: rgba(31, 63, 104, 1)
+                opacity: 0.6
+                max-width: 350px
+            &__img
+                margin-left: auto
+                margin-right: auto
+            &__link
+                font-size: 14px
+                line-height: 30px
+                letter-spacing: 0.05em
+                text-align: left
+                margin: 0px 40px 45px 38px
+                color: rgba(90, 152, 208, 1)
+                text-decoration: none
+        &-card:last-child
+            margin-bottom: 34px
+            margin-right: 0px
+
+         
+
+
+        
+             
+        
